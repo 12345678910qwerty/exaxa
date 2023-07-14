@@ -1,0 +1,97 @@
+.Blog {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.Blog__slide {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: end;
+}
+
+.Slide__card {
+    border-radius: 377px 0px 0px 377px;
+    background: #F6F6F6;
+    max-width: 200rem;
+    height: 36rem;
+    display: flex;
+    align-items: center;
+}
+
+.Card__back {
+    width: 523px;
+    height: 523px;
+    flex-shrink: 0;
+    border-radius: 523px;
+    background: #FFF;
+    box-shadow: 0px 0px 34px 4px rgba(86, 86, 86, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.Card__info {
+    margin-left: 7rem;
+}
+
+.Info__deal {
+    width: 204px;
+    height: 38px;
+    background: #8096BC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deal__text {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.56px;
+}
+
+.info__title {
+    color: #3A3A3A;
+    font-family: Federo;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    /* 111.111% */
+    letter-spacing: 0.9px;
+}
+
+span {
+    color: #78A2CA;
+    font-family: Federo;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.9px;
+}
+
+.info__description {
+    color: #727272;
+    width: 401px;
+    height: 7rem;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.info__btn {
+    width: 122px;
+    height: 38px;
+    flex-shrink: 0;
+    background: #434343;
+    color: #FFF;
+}

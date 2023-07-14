@@ -1,0 +1,47 @@
+.offer{
+    max-width: 1440px;
+    max-height: 450px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 3rem;
+}
+.offer__arrowLeft{
+    display: flex;
+    margin-top: 12rem;
+}
+.offer__image{
+    margin-left: 3rem;
+}
+.offer__text{
+    margin-top: 6rem;
+    margin-left: 6rem;
+}
+.offer__text_name{
+    color: #3A3A3A;
+    font-family: Federo;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+.offer__text_button{
+    background: #434343;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 124px;
+    height: 38px;
+    flex-shrink: 0;
+}
+.offer__text_button:hover{
+    background-color: #2b2b2b;
+}
+.offer__arrowRight{
+    display: flex;
+    margin-top: 12rem;
+}

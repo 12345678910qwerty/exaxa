@@ -1,0 +1,37 @@
+.header__container{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1440px;
+    justify-content: space-between;
+}
+.header__logo{
+    color: #565759;
+    font-family: Potta One;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.33px;
+}
+.header__links_menu{
+    display: flex;
+    align-items: center;
+
+}
+.header__links{
+    color: #697390;
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    margin-left: 16px;
+}
+.header__links:hover{
+    background-color: #d3d3d3;
+    border-radius: 5px;
+}
+.header__tools{
+    display: flex;
+    align-items: center;
+}

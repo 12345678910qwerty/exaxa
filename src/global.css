@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+
+    background: var(--app-bg-color);
+}
+
+input {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
